@@ -25,7 +25,9 @@ app.get('/', (req, res) => {
 
 import('node-fetch').then(({ default: fetch }) => {
   const urls = [    
-'https://galactic-nova-xml.glitch.me',       
+'https://galactic-nova-xml.glitch.me',
+'https://galactic-nova-forex.glitch.me',
+'https://galactic-nova-daryl.glitch.me',
   ];
 
   async function ping(url) {
