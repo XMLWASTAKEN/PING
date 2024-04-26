@@ -28,6 +28,7 @@ import('node-fetch').then(({ default: fetch }) => {
 'https://galactic-nova-xml.glitch.me',
 'https://galactic-nova-forex.glitch.me',
 'https://galactic-nova-daryl.glitch.me',
+'https://siki-originals.glitch.me',   
   ];
 
   async function ping(url) {
