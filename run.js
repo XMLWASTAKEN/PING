@@ -1,26 +1,15 @@
 const express = require("express");
-const { config } = require('dotenv');
-
-config();
-
 const app = express();
 const PORT = process.env.PORT || 2000;
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Script is running !`);
 });
 
 app.get('/', (req, res) => {
-  res.send(`
-    <html>
-      <head>
-        <title>Bot Status</title>
-      </head>
-      <body style="text-align: center; padding: 20px;">
-        <h1>ON</h1>
-      </body>
-    </html>
-  `);
+  res.send(`<body>
+  <center><h1>Script is running !</h1></center
+  </body>`);
 });
 
 import('node-fetch').then(({ default: fetch }) => {
