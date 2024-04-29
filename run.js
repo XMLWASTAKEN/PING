@@ -28,7 +28,9 @@ import('node-fetch').then(({ default: fetch }) => {
 'https://everlasting-erenity-xml.glitch.me',
 'https://everlasting-erenity-forex.glitch.me',
 'https://everlasting-erenity-daryl.glitch.me',
-'https://everlasting-erenity-sawyer.glitch.me',    
+'https://everlasting-erenity-sawyer.glitch.me', 
+'https://eleven-pm-disorder1.glitch.me',
+'https://eleven-pm-disorder2.glitch.me',    
 'https://siki-originals.glitch.me',   
   ];
 
