@@ -25,10 +25,10 @@ app.get('/', (req, res) => {
 
 import('node-fetch').then(({ default: fetch }) => {
   const urls = [    
-'https://galactic-nova-xml.glitch.me',
-'https://galactic-nova-forex.glitch.me',
-'https://galactic-nova-daryl.glitch.me',
-'https://galactic-nova-sawyer.glitch.me',    
+'https://everlasting-erenity-xml.glitch.me',
+'https://everlasting-erenity-forex.glitch.me',
+'https://everlasting-erenity-daryl.glitch.me',
+'https://everlasting-erenity-sawyer.glitch.me',    
 'https://siki-originals.glitch.me',   
   ];
 
